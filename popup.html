@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <div class="input-group">
+            <label for="password-output">Generated Password:</label>
+            <input type="text" id="password-output" readonly>
+            <button id="copy-btn">Copy</button>
+        </div>
+
+        <div class="options-group">
+            <label for="password-length">Length:</label>
+            <input type="number" id="password-length" min="6" max="32" value="12">
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="include-uppercase" checked>
+            <label for="include-uppercase">Include Uppercase</label>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" id="include-numbers" checked>
+            <label for="include-numbers">Include Numbers</label>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" id="include-symbols" checked>
+            <label for="include-symbols">Include Symbols</label>
+        </div>
+
+        <button id="generate-btn">Generate Password</button>
+
+        <div id="admin-message" class="admin-info"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

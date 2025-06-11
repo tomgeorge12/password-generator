@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator!",
+  "version": "1.1",
+  "description": "Generate Passwords at Ease!",
+  "action": {
+    "default_title": "GenPass!",
+    "default_popup": "popup.html"
+  },
+   "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+ "storage": {
+    "managed_schema": "schema.json"
+  },
+  "icons": {
+    "16": "passwords.png",
+    "32": "passwords.png",
+    "48": "passwords.png",
+    "128": "passwords.png"
+  }
+}
