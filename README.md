@@ -1,6 +1,6 @@
 # Chrome Extensions Privacy Policy
 
-_Effective Date: April 12, 2025_
+_Effective Date: June 16, 2025_
 
 I respect and value your privacy. This Privacy Policy describes how I handle and protect your personal information in relation to your use of my Google Chrome extension(s).
 
