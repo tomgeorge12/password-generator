@@ -4,5 +4,6 @@
      "DefaultPassword": {
       "type": "string"
     }
-  }
+  },
+  additionalProperties: false
 }
