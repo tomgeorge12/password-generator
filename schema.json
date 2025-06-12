@@ -2,8 +2,6 @@
   "type": "object",
   "properties": {
      "DefaultPassword": {
-      "title": "Allowed Level",
-      "description": "Level at which maximum pressure can go",
       "type": "string"
     }
   }
